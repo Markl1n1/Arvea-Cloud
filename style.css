@@ -188,6 +188,7 @@ body {
 
     .lang-item img,
     .lang-toggle img {
+      display: block;
       width: 18px;
       height: 18px;
       border-radius: 50%;
