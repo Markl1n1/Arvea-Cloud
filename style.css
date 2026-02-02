@@ -1,3 +1,9 @@
+html,
+body {
+      width: 100%;
+      min-height: 100%;
+    }
+
 body {
       font-family: "Rubik", sans-serif;
       font-weight: 300;
@@ -21,18 +27,19 @@ body {
 	}
 
     .upload-container > img {
-      width: 80px;
+      width: 72px;
       height: auto;
       margin-bottom: 10px;
     }
     .upload-container {
       text-align: center;
       border: 1px solid rgba(30, 85, 121, 0.18);
-      padding: 36px 40px 40px;
+      padding: 32px 36px 36px;
       border-radius: 20px;
       background-color: rgba(255, 255, 255, 0.78);
       box-shadow: 0 20px 60px rgba(30, 85, 121, 0.12);
       backdrop-filter: blur(10px);
+      width: min(520px, 90vw);
     }
 
     h2 {
