@@ -15,7 +15,6 @@
       <button class="lang-toggle" type="button" aria-haspopup="true" aria-expanded="false">
         <img src="/en.png" alt="English">
         <span>EN</span>
-        <span class="lang-caret">v</span>
       </button>
       <div class="lang-menu">
         <a class="lang-item is-active" href="/en/">

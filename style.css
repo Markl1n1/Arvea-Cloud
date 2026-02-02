@@ -127,6 +127,7 @@ body {
       flex-direction: column;
       gap: 6px;
       z-index: 10;
+      align-items: flex-end;
     }
 
     .lang-toggle,
@@ -145,6 +146,8 @@ body {
       letter-spacing: 0.4px;
       box-shadow: 0 6px 14px rgba(30, 85, 121, 0.12);
       cursor: pointer;
+      min-width: 86px;
+      justify-content: flex-start;
     }
 
     .lang-toggle {
@@ -167,6 +170,7 @@ body {
       border: 1px solid rgba(30, 85, 121, 0.16);
       box-shadow: 0 10px 24px rgba(30, 85, 121, 0.12);
       backdrop-filter: blur(6px);
+      align-items: stretch;
     }
 
     .lang-switcher:hover .lang-menu,

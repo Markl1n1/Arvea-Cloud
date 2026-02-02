@@ -15,7 +15,6 @@
       <button class="lang-toggle" type="button" aria-haspopup="true" aria-expanded="false">
         <img src="/ru.png" alt="Russian">
         <span>RU</span>
-        <span class="lang-caret">v</span>
       </button>
       <div class="lang-menu">
         <a class="lang-item" href="/en/">
@@ -37,7 +36,7 @@
       </div>
     </div>
     <div class="upload-container">
-      <img src="../philippos-icon.svg" style="width:80px" alt="Arvea Investment Funds logo">
+      <img src="../arvea.png" style="width:80px" alt="Arvea Investment Funds logo">
       <h2>Загрузите подтверждение платежа / Фото документов</h2>
       <form action="upload.php" method="post" enctype="multipart/form-data">
         <input type="text" name="name" style="margin-bottom: 15px;" placeholder="Имя" required>
