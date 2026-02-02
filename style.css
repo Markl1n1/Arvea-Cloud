@@ -22,9 +22,6 @@ body {
       position: relative;
     }
 		
-	img {
-		margin-bottom: 15px;
-	}
 
     .upload-container > img {
       width: 108px;
