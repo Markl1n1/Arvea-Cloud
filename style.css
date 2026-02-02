@@ -12,6 +12,7 @@ body {
       background-image: linear-gradient(135deg, #e8f6ff 0%, #dce7ff 35%, #d9f3ff 70%, #eef9ff 100%);
       background-repeat: no-repeat;
       background-size: cover;
+      position: relative;
     }
 		
 	img {
@@ -102,6 +103,53 @@ body {
     .upload-container p,
     .upload-container a {
       color: #1E5579 !important;
+    }
+
+    .lang-switcher {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+      border-radius: 18px;
+      background-color: rgba(255, 255, 255, 0.7);
+      box-shadow: 0 12px 30px rgba(30, 85, 121, 0.12);
+      border: 1px solid rgba(30, 85, 121, 0.15);
+      backdrop-filter: blur(8px);
+    }
+
+    .lang-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #1E5579;
+      background-color: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(30, 85, 121, 0.15);
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+    }
+
+    .lang-item img {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid rgba(30, 85, 121, 0.2);
+    }
+
+    .lang-item:hover {
+      background-color: rgba(230, 245, 255, 0.95);
+    }
+
+    .lang-item.is-active {
+      background-color: rgba(210, 240, 255, 0.95);
+      border-color: rgba(30, 85, 121, 0.3);
     }
 
       .message {

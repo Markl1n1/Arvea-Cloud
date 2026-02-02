@@ -12,6 +12,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="lang-switcher">
+      <a class="lang-item" href="/en/">
+        <img src="/flags/gb.svg" alt="English">
+        <span>EN</span>
+      </a>
+      <a class="lang-item" href="/ru/">
+        <img src="/flags/ru.svg" alt="Russian">
+        <span>RU</span>
+      </a>
+      <a class="lang-item is-active" href="/de/">
+        <img src="/flags/de.svg" alt="German">
+        <span>DE</span>
+      </a>
+      <a class="lang-item" href="/pl/">
+        <img src="/flags/pl.svg" alt="Polish">
+        <span>PL</span>
+      </a>
+    </div>
     <div class="upload-container">
       <img src="../arvea.svg" alt="Arvea Investment Funds logo">
       <h2>Zahlungsbestätigung/Dokumente hochladen</h2>
