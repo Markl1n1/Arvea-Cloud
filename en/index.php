@@ -14,19 +14,19 @@
   <body>
     <div class="lang-switcher">
       <a class="lang-item is-active" href="/en/">
-        <img src="/flags/gb.svg" alt="English">
+        <img src="/en.png" alt="English">
         <span>EN</span>
       </a>
       <a class="lang-item" href="/ru/">
-        <img src="/flags/ru.svg" alt="Russian">
+        <img src="/ru.png" alt="Russian">
         <span>RU</span>
       </a>
       <a class="lang-item" href="/de/">
-        <img src="/flags/de.svg" alt="German">
+        <img src="/de.png" alt="German">
         <span>DE</span>
       </a>
       <a class="lang-item" href="/pl/">
-        <img src="/flags/pl.svg" alt="Polish">
+        <img src="/pl.png" alt="Polish">
         <span>PL</span>
       </a>
     </div>
