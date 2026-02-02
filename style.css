@@ -134,20 +134,21 @@ body {
     .lang-item {
       display: flex;
       align-items: center;
-      gap: 8px;
-      padding: 6px 12px;
-      border-radius: 14px;
+      justify-content: center;
+      gap: 6px;
+      padding: 4px 10px;
+      height: 30px;
+      min-width: 80px;
+      border-radius: 12px;
       text-decoration: none;
       color: #1E5579;
       background-color: rgba(255, 255, 255, 0.9);
       border: 1px solid rgba(30, 85, 121, 0.18);
       font-weight: 600;
-      font-size: 12px;
-      letter-spacing: 0.4px;
+      font-size: 11px;
+      letter-spacing: 0.3px;
       box-shadow: 0 6px 14px rgba(30, 85, 121, 0.12);
       cursor: pointer;
-      min-width: 92px;
-      justify-content: center;
     }
 
     .lang-toggle {
@@ -180,8 +181,8 @@ body {
 
     .lang-item img,
     .lang-toggle img {
-      width: 22px;
-      height: 22px;
+      width: 18px;
+      height: 18px;
       border-radius: 50%;
       object-fit: cover;
       border: 1px solid rgba(30, 85, 121, 0.2);
