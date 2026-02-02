@@ -27,7 +27,7 @@ body {
 	}
 
     .upload-container > img {
-      width: 72px;
+      width: 108px;
       height: auto;
       margin-bottom: 10px;
     }
@@ -146,8 +146,8 @@ body {
       letter-spacing: 0.4px;
       box-shadow: 0 6px 14px rgba(30, 85, 121, 0.12);
       cursor: pointer;
-      min-width: 86px;
-      justify-content: flex-start;
+      min-width: 92px;
+      justify-content: center;
     }
 
     .lang-toggle {
@@ -170,7 +170,7 @@ body {
       border: 1px solid rgba(30, 85, 121, 0.16);
       box-shadow: 0 10px 24px rgba(30, 85, 121, 0.12);
       backdrop-filter: blur(6px);
-      align-items: stretch;
+      align-items: center;
     }
 
     .lang-switcher:hover .lang-menu,
