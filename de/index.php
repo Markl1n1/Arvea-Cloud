@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Philippos Asset Management | Dateien anhängen</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="../phasset.svg">
-    <link rel="icon" type="image/png" sizes="16x16" href="../phasset.svg">
+    <title>Arvea Investment Funds | Dateien anhängen</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../arvea.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="../arvea.svg">
 	<link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
   </head>
   <body>
     <div class="upload-container">
-      <img src="../phasset.svg" alt="Philippos Asset Management logo">
+      <img src="../arvea.svg" alt="Arvea Investment Funds logo">
       <h2>Zahlungsbestätigung/Dokumente hochladen</h2>
       <form action="upload.php" method="post" enctype="multipart/form-data">
         <input type="text" name="name" style="margin-bottom: 15px;" placeholder="Vorname" required>

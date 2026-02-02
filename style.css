@@ -1,46 +1,48 @@
-  body {
-        font-family: "Rubik", sans-serif;
-        font-weight: 300;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        color: white;
-        margin: 0;
-        letter-spacing: 1px;
-        background-color: #174F62;
-        background-image: url('/bg.avif');
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
+body {
+      font-family: "Rubik", sans-serif;
+      font-weight: 300;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #1E5579;
+      margin: 0;
+      letter-spacing: 0.5px;
+      background-color: #dff3ff;
+      background-image: linear-gradient(135deg, #e8f6ff 0%, #dce7ff 35%, #d9f3ff 70%, #eef9ff 100%);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 		
 	img {
 		margin-bottom: 15px;
 	}
-      .upload-container {
-        text-align: center;
-        border: 2px solid #ccc;
-        padding: 40px;
-        border-radius: 10px;
-        background-color: white;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-      }
+    .upload-container {
+      text-align: center;
+      border: 1px solid rgba(30, 85, 121, 0.18);
+      padding: 36px 40px 40px;
+      border-radius: 20px;
+      background-color: rgba(255, 255, 255, 0.78);
+      box-shadow: 0 20px 60px rgba(30, 85, 121, 0.12);
+      backdrop-filter: blur(10px);
+    }
 
-      h2 {
-        margin-top: 0;
-        color: #174F62;
-      }
+    h2 {
+      margin-top: 0;
+      color: #1E5579;
+      font-weight: 500;
+    }
 
-      input[type="text"] {
-		background: #f2f2f2;
-		border: 1px solid rgba(48, 48, 48, 0.6);
-		border-radius: 30px;
-		color: #174F62;
+    input[type="text"] {
+		background: #ffffff;
+		border: 1px solid rgba(30, 85, 121, 0.22);
+		border-radius: 999px;
+		color: #1E5579;
 		display: flex;
 		outline: 0;
-		padding: 10px 0 10px 15px;
-        width: calc(100% - 22px);
-      }
+		padding: 12px 18px;
+      width: calc(100% - 36px);
+    }
 
       .custom-file-input {
         display: none;
@@ -50,43 +52,57 @@
         margin-top: 15px;
       }
 
-      .custom-file-label {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-        border: 1px dashed #ccc;
-        border-radius: 5px;
-        background-color: #f0f0f0;
-        color: #174F62;
-        font-weight: bold;
-        cursor: pointer;
-        margin-top: 20px;
-      }
+    .custom-file-label {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      border: 1px dashed rgba(30, 85, 121, 0.35);
+      border-radius: 16px;
+      background-color: #f4f9ff;
+      color: #1E5579;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 20px;
+    }
 
       .custom-file-label img {
         vertical-align: middle;
         margin-right: 10px;
       }
 
-      .custom-file-label:hover {
-        background-color: #e0e0e0;
-      }
+    .custom-file-label:hover {
+      background-color: #e9f5ff;
+    }
 
-      button {
-        background: #00B5D5;
-        color: white;
-        font-weight: 700;
-        padding: 14px 30px;
-        border: none;
-        border-radius: 60px;
-        cursor: pointer;
-        font-size: 14px;
-        letter-spacing: -.28px;
-        text-transform: capitalize;
-        margin-top: 25px;
-      }
+    button {
+      background: linear-gradient(95deg, #64cdbf 4.47%, #a3f0e6 39.62%, #64cdbf 65.1%, #269687 95.78%);
+      color: #1E5579;
+      font-weight: 700;
+      padding: 14px 34px;
+      border: none;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 14px;
+      letter-spacing: -.28px;
+      text-transform: capitalize;
+      margin-top: 25px;
+      box-shadow: 0 12px 24px rgba(38, 150, 135, 0.25);
+    }
+
+    button:hover {
+      filter: brightness(1.02);
+    }
+
+    button:active {
+      transform: translateY(1px);
+    }
+
+    .upload-container p,
+    .upload-container a {
+      color: #1E5579 !important;
+    }
 
       .message {
         margin-top: 20px;
