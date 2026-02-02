@@ -9,9 +9,10 @@ body {
       margin: 0;
       letter-spacing: 0.5px;
       background-color: #dff3ff;
-      background-image: linear-gradient(135deg, #e8f6ff 0%, #dce7ff 35%, #d9f3ff 70%, #eef9ff 100%);
+      background-image: url('/bg.png');
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: center;
       position: relative;
     }
 		
@@ -107,35 +108,61 @@ body {
 
     .lang-switcher {
       position: absolute;
-      top: 20px;
-      left: 20px;
+      top: 18px;
+      right: 18px;
       display: flex;
       flex-direction: column;
-      gap: 10px;
-      padding: 10px;
-      border-radius: 18px;
-      background-color: rgba(255, 255, 255, 0.7);
-      box-shadow: 0 12px 30px rgba(30, 85, 121, 0.12);
-      border: 1px solid rgba(30, 85, 121, 0.15);
-      backdrop-filter: blur(8px);
+      gap: 6px;
+      z-index: 10;
     }
 
+    .lang-toggle,
     .lang-item {
       display: flex;
       align-items: center;
       gap: 8px;
       padding: 6px 12px;
-      border-radius: 999px;
+      border-radius: 14px;
       text-decoration: none;
       color: #1E5579;
       background-color: rgba(255, 255, 255, 0.9);
-      border: 1px solid rgba(30, 85, 121, 0.15);
+      border: 1px solid rgba(30, 85, 121, 0.18);
       font-weight: 600;
       font-size: 12px;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.4px;
+      box-shadow: 0 6px 14px rgba(30, 85, 121, 0.12);
+      cursor: pointer;
     }
 
-    .lang-item img {
+    .lang-toggle {
+      background-color: rgba(255, 255, 255, 0.95);
+    }
+
+    .lang-toggle .lang-caret {
+      margin-left: 4px;
+      font-size: 10px;
+      opacity: 0.7;
+    }
+
+    .lang-menu {
+      display: none;
+      flex-direction: column;
+      gap: 6px;
+      padding: 8px;
+      border-radius: 12px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(30, 85, 121, 0.16);
+      box-shadow: 0 10px 24px rgba(30, 85, 121, 0.12);
+      backdrop-filter: blur(6px);
+    }
+
+    .lang-switcher:hover .lang-menu,
+    .lang-switcher:focus-within .lang-menu {
+      display: flex;
+    }
+
+    .lang-item img,
+    .lang-toggle img {
       width: 20px;
       height: 20px;
       border-radius: 50%;

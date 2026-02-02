@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arvea Investment Funds | Przesyłanie plików</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="../arvea.svg">
-    <link rel="icon" type="image/png" sizes="16x16" href="../arvea.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="../arvea.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../arvea.png">
 	<link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,25 +13,32 @@
   </head>
   <body>
     <div class="lang-switcher">
-      <a class="lang-item" href="/en/">
-        <img src="/en.png" alt="English">
-        <span>EN</span>
-      </a>
-      <a class="lang-item" href="/ru/">
-        <img src="/ru.png" alt="Russian">
-        <span>RU</span>
-      </a>
-      <a class="lang-item" href="/de/">
-        <img src="/de.png" alt="German">
-        <span>DE</span>
-      </a>
-      <a class="lang-item is-active" href="/pl/">
+      <button class="lang-toggle" type="button" aria-haspopup="true" aria-expanded="false">
         <img src="/pl.png" alt="Polish">
         <span>PL</span>
-      </a>
+        <span class="lang-caret">v</span>
+      </button>
+      <div class="lang-menu">
+        <a class="lang-item" href="/en/">
+          <img src="/en.png" alt="English">
+          <span>EN</span>
+        </a>
+        <a class="lang-item" href="/ru/">
+          <img src="/ru.png" alt="Russian">
+          <span>RU</span>
+        </a>
+        <a class="lang-item" href="/de/">
+          <img src="/de.png" alt="German">
+          <span>DE</span>
+        </a>
+        <a class="lang-item is-active" href="/pl/">
+          <img src="/pl.png" alt="Polish">
+          <span>PL</span>
+        </a>
+      </div>
     </div>
     <div class="upload-container">
-      <img src="../arvea.svg" alt="Arvea Investment Funds logo">
+      <img src="../arvea.png" alt="Arvea Investment Funds logo">
       <h2>Prześlij potwierdzenie płatności / dokumenty</h2>
       <form action="upload.php" method="post" enctype="multipart/form-data">
         <input type="text" name="name" style="margin-bottom: 15px;" placeholder="Imię" required>
